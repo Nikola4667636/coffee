@@ -12,7 +12,7 @@ class Form(QWidget):
 
         self.button_make.clicked.connect(self.make_coffee)
         self.button_remake.clicked.connect(self.remake_coffee)
-        self.button_find_coffee.clicked.connect(self.find_coffee)
+        self.button_find.clicked.connect(self.find_coffee)
 
     def make_coffee(self):
         try:

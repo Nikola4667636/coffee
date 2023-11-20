@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>905</width>
-    <height>570</height>
+    <height>628</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -58,6 +58,19 @@
       <string>Объем упаковки</string>
      </property>
     </column>
+   </widget>
+   <widget class="QPushButton" name="button_open_form">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>111</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Открыть форму</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
